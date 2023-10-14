@@ -1,0 +1,161 @@
+$date
+	Tue Oct 10 11:09:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bram11TB $end
+$var wire 32 ! Do [31:0] $end
+$var reg 12 " A [11:0] $end
+$var reg 1 # CLK $end
+$var reg 32 $ Di [31:0] $end
+$var reg 1 % EN $end
+$var reg 1 & Resetn $end
+$var reg 4 ' WE [3:0] $end
+$scope module DUT1 $end
+$var wire 12 ( A [11:0] $end
+$var wire 1 # CLK $end
+$var wire 32 ) Di [31:0] $end
+$var wire 32 * Do [31:0] $end
+$var wire 1 % EN $end
+$var wire 1 & Resetn $end
+$var wire 4 + WE [3:0] $end
+$var reg 12 , r_A [11:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+bx (
+b0 '
+0&
+0%
+b0 $
+0#
+bx "
+b0 !
+$end
+#5
+b1100 -
+1#
+#10
+bx !
+bx *
+0#
+b0 "
+b0 (
+1%
+1&
+#15
+b0 !
+b0 *
+b0 ,
+1#
+#20
+0#
+b100 "
+b100 (
+#25
+b100 ,
+1#
+#30
+0#
+b1000 "
+b1000 (
+#35
+b1000 ,
+1#
+#40
+0#
+b1100 "
+b1100 (
+#45
+b1100 ,
+1#
+#50
+0#
+b101100 "
+b101100 (
+#55
+bx !
+bx *
+b101100 ,
+1#
+#60
+0#
+b110100 "
+b110100 (
+#65
+b110100 ,
+1#
+#70
+0#
+b100 "
+b100 (
+b11111111 $
+b11111111 )
+b1111 '
+b1111 +
+#75
+b11111111 !
+b11111111 *
+b100 ,
+1#
+#80
+0#
+b1000 "
+b1000 (
+b1111111100000000 $
+b1111111100000000 )
+#85
+b1111111100000000 !
+b1111111100000000 *
+b1000 ,
+1#
+#90
+0#
+b100 "
+b100 (
+b11110000 $
+b11110000 )
+#95
+b11110000 !
+b11110000 *
+b100 ,
+1#
+#100
+0#
+b1111 $
+b1111 )
+#105
+b1111 !
+b1111 *
+1#
+#110
+0#
+b110100 "
+b110100 (
+b1101 $
+b1101 )
+#115
+bx !
+bx *
+b110100 ,
+1#
+#120
+0#
+#125
+1#
+#130
+0#

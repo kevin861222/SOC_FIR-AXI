@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/fir/rtl/fir.v" into library work
+INFO: [VRFC 10-311] analyzing module FIR_Logic
+INFO: [VRFC 10-311] analyzing module fir
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/bram/bram11.v" into library work
+INFO: [VRFC 10-311] analyzing module bram11
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [/home/a605/soclab/mylab3/code/fir-dev/bram/bram11.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/fir/tb/fir_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module fir_tb
