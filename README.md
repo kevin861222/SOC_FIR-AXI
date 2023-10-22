@@ -35,4 +35,11 @@
 
 - Hand Shake
     - AXI-Lite
-    - AXI-Stream  
+    - AXI-Stream
+
+#### FIR 運作機制
+ 
+#### TestBench 驗證概述
+
+#### Waveform
+*詳見report.pdf*
