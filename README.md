@@ -9,4 +9,4 @@
 #### Table of files 
 - Code
   - 本專案原始程式碼
-  - *內含一個README.md說明如何運行程式*
+  *內含一個README.md說明如何運行程式*
