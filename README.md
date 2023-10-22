@@ -65,29 +65,34 @@
 
   1. FIR運算過程
      
-      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/5245cc58-52f1-44c1-bd01-1d98a90bb0c4)
+     ![截圖 2023-10-23 上午12 07 51](https://github.com/kevin861222/SOC_lab3/assets/79128379/dcb063fd-6e4a-41d1-aaef-68715cab3281)
 
-  3. FIR運作過程RAM Addr變化 （時間軸同上圖）
-     
-     ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/7264c6ae-4517-402a-ad45-05598fd2bb74)
 
-  5. AXI-Lite 讀取（AR/R Chennel）
+  2. FIR運作過程RAM Addr變化 （時間軸同上圖）
      
-     ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/58566730-eecf-4760-b298-5ce518b1cabc)
+     ![截圖 2023-10-23 上午12 08 17](https://github.com/kevin861222/SOC_lab3/assets/79128379/5083021e-24f3-4f04-b12b-e335e708e424)
 
-  7. AXI-Lite 寫入 (AW/W Chennel)
+
+  3. AXI-Lite 讀取（AR/R Chennel）
      
-      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/92b089c3-1358-43da-9718-b6aae18472be)
+     ![截圖 2023-10-23 上午12 08 57](https://github.com/kevin861222/SOC_lab3/assets/79128379/d13cbb07-bf0a-4069-abb7-665edd24421a)
+
+  
+
+  4. AXI-Lite 寫入 (AW/W Chennel)
      
-  9. FIR狀態切換
+     ![截圖 2023-10-23 上午12 09 26](https://github.com/kevin861222/SOC_lab3/assets/79128379/ac5f9321-90d6-4b38-b3be-1142a50a90b4)
+
+     
+  5. FIR狀態切換
       
      -IDLE -> WORK
 
-      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/9fc596f3-f8c0-4712-9833-8482084bde6b)
+     ![截圖 2023-10-23 上午12 09 51](https://github.com/kevin861222/SOC_lab3/assets/79128379/e2f80a96-40b8-4667-bc0a-07216435833d)
 
      -WORK -> IDLE (在ap_done被順利接收後返回初始狀態)
 
-       ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/98bf800d-e285-44a1-8d01-69f39dad5bc4)
+      ![截圖 2023-10-23 上午12 10 04](https://github.com/kevin861222/SOC_lab3/assets/79128379/a80e6b25-e697-45ef-9402-9fb27fd6d54a)
 
 
 
