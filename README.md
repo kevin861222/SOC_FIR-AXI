@@ -23,4 +23,5 @@
 #### Intro
 設計一個FIR計算IP
   - FIR
-  $$Y[n] = \sum{(a[n-11]*X[n])}$$ 
+  $$Y[n] = \sum{(a[n-11]*X[n])}$$
+  ##### ggg
