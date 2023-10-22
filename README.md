@@ -48,6 +48,17 @@
   6. ap_done 復位，發self_reset_n，將系統回復初始狀態，此self_reset_n不會重置data RAM以及tap RAM中的資料。
  
 #### TestBench 驗證概述
+  0. 透過axis_reset_n重置DUT
+  1. 透過axi-lite(R)確認ap_idle = 1
+  2. 傳輸length、11筆tap資訊
+  3. 驗證tap資訊
+  4. 傳輸ap_start資訊
+  5. 準備傳輸x[n]與接收y[n]
+  6. 比對golden_test
+  7. 準備接收ap_done
+  8. 準備接收ap_idle
+  9. 比對ap_signals
+  10. 重複步驟1~9兩次
 
 #### Waveform
 *詳見report.pdf*
