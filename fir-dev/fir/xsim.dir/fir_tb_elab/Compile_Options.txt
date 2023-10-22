@@ -1,1 +1,0 @@
--top "fir_tb" -snapshot "fir_tb_elab" 
