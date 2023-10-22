@@ -18,4 +18,9 @@
 - fir_utilization_synth.rpt - 在pynq-z2中使用的資源統計
 - report.pdf - 完整的報告
 - timing_report.txt - 時序分析
-  
+
+---
+#### Intro
+設計一個FIR計算IP
+  - FIR
+  $$Y[n] = \sum{(a[n-11]*X[n])}$$ 
