@@ -61,4 +61,25 @@
   10. 重複步驟1~9兩次
 
 #### Waveform
-*詳見report.pdf*
+*僅概要說明設計，詳見report.pdf*
+
+  1. FIR運算過程 
+      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/5245cc58-52f1-44c1-bd01-1d98a90bb0c4)
+
+  2. FIR運作過程RAM Addr變化 （時間軸同上圖）
+     ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/7264c6ae-4517-402a-ad45-05598fd2bb74)
+
+  3. AXI-Lite 讀取（AR/R Chennel）
+     ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/58566730-eecf-4760-b298-5ce518b1cabc)
+
+  4. AXI-Lite 寫入 (AW/W Chennel)
+      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/92b089c3-1358-43da-9718-b6aae18472be)
+     
+  5. FIR狀態切換
+     -IDLE -> WORK
+      ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/9fc596f3-f8c0-4712-9833-8482084bde6b)
+     -WORK -> IDLE (在ap_done被順利接收後返回初始狀態)
+       ![image](https://github.com/kevin861222/SOC_lab3/assets/79128379/98bf800d-e285-44a1-8d01-69f39dad5bc4)
+
+
+
