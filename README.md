@@ -38,6 +38,14 @@
     - AXI-Stream
 
 #### FIR 運作機制
+  0. 初始狀態為IDEL，指允許AXI-Lite傳輸。
+  1. 接收11筆tap，同時在內部reset data RAM
+  2. 接收length
+  3. 接收ap_start，進入WORK狀態，允許AXI_Lite與AXI-Stream傳輸
+  4. 接收x[n]並運算，再將y[n]輸出，接收資料、運算、傳出資料是平行任務
+     當counter=length時輸出y[n]會附帶tlast信號
+  5. 結束運算ap_done = 1，等待該資訊傳遞成功
+  6. ap_done 復位，發self_reset_n，將系統回復初始狀態，此self_reset_n不會重置data RAM以及tap RAM中的資料。
  
 #### TestBench 驗證概述
 
