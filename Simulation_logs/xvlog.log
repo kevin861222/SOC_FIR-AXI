@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/fir/rtl/fir.v" into library work
+INFO: [VRFC 10-311] analyzing module FIR_Logic
+INFO: [VRFC 10-311] analyzing module fir
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/bram/bram11.v" into library work
+INFO: [VRFC 10-311] analyzing module bram11
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/a605/soclab/mylab3/code/fir-dev/fir/tb/fir_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module fir_tb

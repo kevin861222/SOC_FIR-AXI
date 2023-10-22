@@ -1,0 +1,103 @@
+[*]
+[*] GTKWave Analyzer v3.3.107 (w)1999-2020 BSI
+[*] Sun Oct 22 13:28:28 2023
+[*]
+[dumpfile] "/Users/wangyu/Downloads/SOC_Lab/LAB3/code/fir_new/312605003_lab3/Waveform.vcd"
+[dumpfile_mtime] "Sat Oct 21 03:15:46 2023"
+[dumpfile_size] 6989716
+[savefile] "/Users/wangyu/Downloads/SOC_Lab/LAB3/code/fir_new/312605003_lab3/Waveform.gtkw"
+[timestart] 66320600
+[size] 1920 1080
+[pos] -1 -1
+*-17.000000 66803600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fir_tb.
+[treeopen] fir_tb.fir_DUT.
+[sst_width] 193
+[signals_width] 201
+[sst_expanded] 1
+[sst_vpaned_height] 335
+@28
+fir_tb.fir_DUT.axis_clk
+fir_tb.fir_DUT.axis_rst_n
+@200
+-
+@28
+fir_tb.fir_DUT.ARR_STATE
+fir_tb.fir_DUT.arvalid
+fir_tb.fir_DUT.rready
+fir_tb.fir_DUT.addr_reg_R[1:0]
+@200
+-
+@22
+fir_tb.fir_DUT.awaddr[11:0]
+@28
+fir_tb.fir_DUT.awvalid
+fir_tb.fir_DUT.AWW_STATE
+fir_tb.fir_DUT.wvalid
+fir_tb.fir_DUT.wready
+fir_tb.fir_DUT.wvalid
+@200
+-
+@28
+fir_tb.fir_DUT.tap_EN
+@22
+fir_tb.fir_DUT.tap_WE[3:0]
+fir_tb.fir_DUT.tap_A[11:0]
+fir_tb.fir_DUT.tap_Di[31:0]
+@200
+-
+@28
+fir_tb.fir_DUT.data_EN
+@22
+fir_tb.fir_DUT.data_WE[3:0]
+fir_tb.fir_DUT.data_A[11:0]
+fir_tb.fir_DUT.data_Di[31:0]
+@200
+-
+-
+@28
+fir_tb.fir_DUT.axis_clk
+fir_tb.fir_DUT.axis_rst_n
+fir_tb.fir_DUT.FIR_STATE[2:0]
+@200
+-
+@28
+fir_tb.fir_DUT.ap_done
+fir_tb.fir_DUT.ap_idle
+fir_tb.fir_DUT.ap_start
+fir_tb.fir_DUT.rready
+fir_tb.fir_DUT.rvalid
+@200
+-
+@28
+fir_tb.fir_DUT.self_reset
+fir_tb.fir_DUT.arready
+fir_tb.fir_DUT.arvalid
+@22
+fir_tb.fir_DUT.araddr[11:0]
+@200
+-
+@28
+fir_tb.fir_DUT.ss_tvalid
+fir_tb.fir_DUT.ss_tready
+@22
+fir_tb.fir_DUT.ss_tdata[31:0]
+@200
+-
+@28
+fir_tb.fir_DUT.sm_tvalid
+fir_tb.fir_DUT.sm_tready
+@29
+fir_tb.fir_DUT.sm_tlast
+@22
+fir_tb.fir_DUT.sm_tdata[31:0]
+@200
+-
+@28
+fir_tb.fir_DUT.Done_fir
+@22
+fir_tb.fir_DUT.Y[31:0]
+fir_tb.fir_DUT.FIR_kernel.X[31:0]
+fir_tb.fir_DUT.FIR_kernel.tap[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

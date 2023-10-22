@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/a605/soclab/mylab3/code/fir-dev/bram/bram11.v,1697732016,verilog,,/home/a605/soclab/mylab3/code/fir-dev/fir/tb/fir_tb.v,,bram11,,,,,,,,
+/home/a605/soclab/mylab3/code/fir-dev/fir/rtl/FIR_Logic.v,1697175222,verilog,,,,FIR_Logic,,,,,,,,
+/home/a605/soclab/mylab3/code/fir-dev/fir/rtl/fir.v,1697857520,verilog,,/home/a605/soclab/mylab3/code/fir-dev/bram/bram11.v,/home/a605/soclab/mylab3/code/fir-dev/fir/rtl/FIR_Logic.v,fir,,,,,,,,
+/home/a605/soclab/mylab3/code/fir-dev/fir/tb/fir_tb.v,1697819882,verilog,,,,fir_tb,,,,,,,,

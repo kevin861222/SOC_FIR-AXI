@@ -1,0 +1,8 @@
+學號    :312605003
+姓名    :王語
+系級    :ROB碩一
+
+下方連結是我的Lab3 GitHub網址
+https://github.com/kevin861222/SOC_lab3
+
+謝謝助教
