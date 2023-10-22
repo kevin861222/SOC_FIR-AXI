@@ -22,17 +22,17 @@
 ---
 #### Intro
 設計一個FIR計算IP
-  - FIR
+- FIR
   $$Y[n] = \sum{(a[n-11]*X[n])}$$
 
   n ∈ [0,599]
 
-  data_length = 600
+  - data_length = 600
 
-  Data_Width = 32
+  - Data_Width = 32
 
-  Tape_Num = 11
+  - Tape_Num = 11
 
-  - Hand Shake
+- Hand Shake
     - AXI-Lite
     - AXI-Stream  
