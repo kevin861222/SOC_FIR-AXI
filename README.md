@@ -12,4 +12,10 @@
   *內含一個README.md說明如何運行程式*
 - Simulation_logs - 模擬結果與說明
 - Waveform - 波形圖
+- GitHubLink.txt - 本專案連結
+- LICENSE - MIT LICENSE
+- RTL_Viewer(schematic).pdf - 在vivado環境下合成出來的電路圖
+- fir_utilization_synth.rpt - 在pynq-z2中使用的資源統計
+- report.pdf - 完整的報告
+- timing_report.txt - 時序分析
   
