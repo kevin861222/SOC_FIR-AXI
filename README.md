@@ -61,7 +61,7 @@
   10. 重複步驟1~9兩次
 
 #### Waveform
-*僅概要說明設計，詳見report.pdf*
+*僅概要說明設計，詳見[report.pdf](https://github.com/kevin861222/SOC_lab3/blob/main/report.pdf)*
 
   1. FIR運算過程
      
