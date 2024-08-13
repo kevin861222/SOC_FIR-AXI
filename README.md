@@ -1,4 +1,5 @@
 ## SOC_lab3
+題目：SOC_FIR-AXI
 最後更新 : 2023.10.22
 
 作者：王語
@@ -6,6 +7,10 @@
 聲明：本專案接受任何理性評論與建議
 
 ---
+#### 簡介
+小型練手專案，設計 FIR 計算單元，並通過 AXI-Lite 以及 AXI-stream 維護資料傳輸。
+使用 vivado 合成並實現於 pynq-z2
+
 #### Table of files 
 - Code - 本專案原始程式碼
   
