@@ -21,7 +21,7 @@
 
 ---
 #### Intro
-設計一個FIR計算IP
+設計一個FIR運算IP，並使用 axi 維護資料傳輸
 - FIR
   $$Y[n] = \sum{(a[n-11]*X[n])}$$
 
